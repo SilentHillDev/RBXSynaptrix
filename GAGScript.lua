@@ -248,4 +248,5 @@ runService.PreRender:Connect(UpdateEspPositions)
 
 -- rayfield gui
 task.delay(2, function()
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/SilentHillDev/REDScriptz/refs/heads/main/GAG_Main_Loader.lua"))()
 end)
